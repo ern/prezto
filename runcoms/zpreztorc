@@ -125,7 +125,7 @@ zstyle ':prezto:module:prompt' theme 'sorin'
 #
 
 # Auto set the tab and window titles.
-zstyle ':prezto:module:terminal' auto-title 'yes'
+# zstyle ':prezto:module:terminal' auto-title 'yes'
 
 #
 # Tmux
@@ -135,5 +135,5 @@ zstyle ':prezto:module:terminal' auto-title 'yes'
 # zstyle ':prezto:module:tmux' auto-start 'yes'
 
 # mvn completion
-maven_plugins=(dependency eclipse javadoc jetty release sakai source tomcat versions)
+maven_plugins=(archetype assembly dependency eclipse javadoc jetty release sakai source tomcat versions)
 zstyle ':completion:*:mvn:*' plugins $maven_plugins
