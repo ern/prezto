@@ -134,6 +134,9 @@ zstyle ':prezto:module:prompt' theme 'lance'
 # Auto start a session when Zsh is launched.
 # zstyle ':prezto:module:tmux' auto-start 'yes'
 
-# mvn completion
+#
+# Maven
+#
+
 maven_plugins=(archetype assembly dependency eclipse javadoc jetty release sakai source tomcat versions)
 zstyle ':completion:*:mvn:*' plugins $maven_plugins
