@@ -3,4 +3,3 @@
 git pull --no-commit --strategy=recursive -X ours upstream master
 git submodule sync
 git submodule update --init
-git submodule foreach git pull -q origin master
